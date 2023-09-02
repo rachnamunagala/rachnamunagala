@@ -1,0 +1,374 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #ebfdeb;
+}
+
+/* Background Image and 'Rachna Munagala' for HomePage */
+.hero-image {
+    position: relative;
+    height: 100vh;
+    background-image: url("images/DSC_0633.JPG");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+}
+.hero-image h1 {
+    font-size: 75px;
+    margin: 0;
+}
+
+.scroll-down-icon {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    background-image: url("images/whiteDown.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*Navigation Bar*/
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #003232;
+    color: #fff;
+    padding: 10px;
+    z-index: 100;
+}
+
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar li {
+    margin-right: 10px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-bar ul li {
+    display: inline-block;
+  }
+  
+  .nav-bar ul li a {
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .nav-bar ul li a i {
+    margin-right: 5px;
+  }
+  
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/* About Me Section */
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-image {
+    width: 350px; /* Adjust the width as desired */
+    height: auto;
+    margin-right: 100px; /* Added margin for spacing */
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.about-text{
+    text-align: left;
+}
+.about-text h2 {
+    font-size: 30px;
+    text-align: left;
+    margin: 0 auto;
+    margin-left: 300px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+.about-text p{
+    font-size: 25px;
+    margin-top: 0; /* Remove default margin */
+    margin-right: 150px;
+
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/* Skills Section*/
+#skills {
+    padding: 20px;
+    text-align: center;
+  }
+  .skills-text h1{
+    font-size: 30px;
+    margin-top: 70px;
+  }
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1500px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    color: #ffffff;
+  }
+  .skill-widget {
+    flex: 0 0 auto;
+    width: 150px;
+    height: 50px;
+    background-color: #003232;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .skill-widget p {
+    font-size: 14px;
+    color: #fff;
+  }
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+  /*Resume Button*/
+  .resume-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1500px; /* Adjust the maximum width as needed */
+    margin: 0 auto;
+    color: #ffffff;
+  }
+  .resume-button {
+    background-color: #003232;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+  }
+  .resume-button p {
+    font-size: 14px;
+    color: #fff;
+  }
+  .resume-button:hover {
+    background-color: #4b7b7b;
+  }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.column {
+  position: relative;
+  width: 450px;
+  height: 350px;
+  text-align: center;
+  margin: 10px;
+}
+
+.portfolio-text {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.portfolio-text h2 {
+  margin-top: 70px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.portfolio-text p {
+  text-align: left;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Add some space between items */
+}
+
+/* Make each flex item grow to fill available space and adjust the width as needed */
+.experience-container,
+.projects-container {
+  flex: 1;
+  min-width: 300px; /* Adjust the width as needed */
+  background-color: #9eb39e;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; 
+
+}
+.experience-container h3,
+.projects-container h3 {
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.experience-container ul,
+.projects-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.experience-container li,
+.projects-container li {
+  margin-bottom: 20px;
+}
+
+.experience-container h4,
+.projects-container h4 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.experience-container p,
+.projects-container p {
+  margin: 5px 0;
+}
+
+.experience-container a,
+.projects-container a {
+  color: #1d581d;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.experience-container a:hover,
+.projects-container a:hover {
+  color: #0c140c;
+}
+
+.portfolio-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience-container,
+.projects-container {
+  width: calc(50% - 20px);
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .experience-container,
+  .projects-container {
+    width: 100%;
+    margin-right: 0;
+  }
+} 
+  
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*Contact Section*/
+.contact-text {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*Social Media Icons*/
+  .email-icon{
+    width: 40px;
+    height: auto;
+  }
+  .linkedin-icon {
+    width: 50px;
+    height: auto;
+  }
+  .instagram-icon{
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+  }
+  .tiktok-icon{
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+  }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*ChatGPT Question and Answer Feature*/
+#chat-container {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  #chat-window {
+    height: 80%;
+    margin-bottom: 10px;
+  }
+  
+  #user-input {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+  }
+  .message {
+    margin-bottom: 5px;
+  }
+  
+  .message strong {
+    font-weight: bold;
+  }
+  
+  .message.user {
+    color: #0066cc;
+  }
+  
+  .message.chatbot {
+    color: #009933;
+  }
+    
+  
+
+
